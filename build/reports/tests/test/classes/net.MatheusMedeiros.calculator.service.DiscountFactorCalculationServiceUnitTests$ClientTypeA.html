@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Quando o cliente é do tipo A</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Quando o cliente é do tipo A</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/net.MatheusMedeiros.calculator.service.html">net.MatheusMedeiros.calculator.service</a> &gt; DiscountFactorCalculationServiceUnitTests$ClientTypeA</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.013s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">E Quantidade entre 100 e 999 ENTÃO o desconto é 5%</td>
+<td class="success">whenClientAQuantityGreater100AndQuantityLower1000THENDiscount5Percent()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">E Quantidade entre 1 e 99 ENTÃO o desconto é 10%</td>
+<td class="success">whenClientAQuantityLessThen100ThenDiscount10Percent()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">E Quantidade maior ou igual a 1000 ENTAO Desconto é 0%</td>
+<td class="success">whenClientTypeAQuantityGreaterEqual1000THENDiscount0Percent()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-10-19 22:42:15.299  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests$ClientTypeA], using SpringBootContextLoader
+2022-10-19 22:42:15.301  INFO 16996 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests$ClientTypeA]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-19 22:42:15.301  INFO 16996 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests$ClientTypeA]: ClientTypeA does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-19 22:42:15.303  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration net.MatheusMedeiros.calculator.CalculatorApplication for test class net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests$ClientTypeA
+2022-10-19 22:42:15.304  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-19 22:42:15.305  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b06f498, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ddb9a8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7b24d5e4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4c3c31a5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5002be8e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@39fb5ddf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@642d34f1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@49b180c8, org.springframework.test.context.event.EventPublishingTestExecutionListener@c02a1be, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f740044, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@62732be7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@278150a1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e170abe, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@712e4b18, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@af96ac9]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0-milestone-1</a> at 19 de out. de 2022 22:42:15</p>
+</div>
+</div>
+</body>
+</html>

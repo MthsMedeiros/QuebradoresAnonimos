@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Testes do Serviço de Cálculo do Fator de Desconto</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Testes do Serviço de Cálculo do Fator de Desconto</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/net.MatheusMedeiros.calculator.service.html">net.MatheusMedeiros.calculator.service</a> &gt; DiscountFactorCalculationServiceUnitTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-10-19 22:42:15.217  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests], using SpringBootContextLoader
+2022-10-19 22:42:15.218  INFO 16996 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-19 22:42:15.218  INFO 16996 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests]: DiscountFactorCalculationServiceUnitTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-19 22:42:15.220  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration net.MatheusMedeiros.calculator.CalculatorApplication for test class net.MatheusMedeiros.calculator.service.DiscountFactorCalculationServiceUnitTests
+2022-10-19 22:42:15.221  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-19 22:42:15.222  INFO 16996 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35e357b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@724c26e0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6055e899, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@350be5ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@478cebdb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5464aeec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b3a95d9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@71f437d7, org.springframework.test.context.event.EventPublishingTestExecutionListener@5186c801, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@20e41f13, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6fbfd28b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3fa50a24, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@58041b11, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@58189b85, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@49222187]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0-milestone-1</a> at 19 de out. de 2022 22:42:15</p>
+</div>
+</div>
+</body>
+</html>
